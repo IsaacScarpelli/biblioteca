@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  color: white;
+}
+/*Barra de navegação*/
+nav {
+  color: white;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+li {
+  float: left;
+  padding: 14px 16px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(56, 56, 56);
+}
+
+table,
+th,
+td {
+  border: 1px
+}
+/*Descrição do livro*/
+.py {
+  display: flex;
+}
+
+.Livro {
+  width: 30%;
+}
+
+.Sinopse {
+  width: 40%;
+
+}
+
+.Sinopse iframe {
+  padding: 50px;
+}
